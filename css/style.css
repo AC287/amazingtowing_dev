@@ -1,0 +1,92 @@
+#myCarousel {
+  height: 100vh;
+  width: 100vw;
+  /* width: auto; */
+  position: relative;
+  z-index: -10;
+  /* text-align: center; */
+}
+#myCarousel .carousel-inner img {
+  height: 100vh;
+  width: 100%;
+}
+@media screen and (min-width: 750px) {
+  .text-container {
+    width: 100%;
+    /* height: 100%; */
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    top: 10%;
+    /* padding: 20px; */
+  }
+}
+.text-container {
+  width: 100%;
+  text-align: center;
+}
+.amazingtowing-text {
+  background-color: rgba(255,255,255,0.5);
+  /* top: 35px; */
+  /* padding: 25px; */
+  /* width: 75%; */
+  /* margin: 0 auto; */
+  /* width: 35%; */
+}
+.at-name {
+  font-size: 50pt;
+  font-weight: bold;
+  /* color: #FF0; */
+}
+.at-address, .at-phone {
+  font-size: 25pt;
+  /* line-height: 20pt; */
+}
+
+.at-phone .glyphicon-earphone {
+  top: 7px;
+  right: 10px;
+}
+
+.at-callout {
+  /* width: 50%; */
+  text-align: left;
+  padding: 20px;
+}
+
+@media screen and (max-width: 750px) {
+  .text-container {
+    top: 0;
+    overflow: hidden;
+  }
+  .at-name {
+    padding-top: 25px;
+    font-size: 16pt;
+    font-weight: bold;
+  }
+  .at-address, .at-phone {
+    font-size: 12pt;
+  }
+  .at-phone {
+    padding-top: 20px;
+  }
+  #myCarousel {
+    /* height: 100%; */
+    width: 100vw;
+    height: auto;
+    /* width: auto; */
+    position: relative;
+    /* z-index: -10; */
+    /* text-align: center; */
+  }
+  #myCarousel .carousel-inner img {
+    height: auto;
+    width: 100%;
+  }
+  .at-phone .glyphicon-earphone {
+    top: 3px;
+    right: 3px;
+  }
+}
