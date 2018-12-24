@@ -19,7 +19,7 @@
     z-index: 10;
     display: flex;
     justify-content: space-around;
-    top: 10%;
+    top: 5%;
     /* padding: 20px; */
   }
 }
@@ -54,6 +54,10 @@
   /* width: 50%; */
   text-align: left;
   padding: 20px;
+}
+
+a.phicon {
+    text-decoration: none;
 }
 
 @media screen and (max-width: 750px) {
